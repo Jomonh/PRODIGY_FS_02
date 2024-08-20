@@ -1,0 +1,99 @@
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+.label-bold{
+  font-weight: 500;
+}
+.linktext{
+  cursor: pointer;
+  text-align: right;
+  text-decoration: underline;
+}
+.errors{
+  color: red;
+}
+.showmsg{
+  top: 15%;
+  position: absolute;
+  border-radius: 13px;
+  box-shadow: black 0px 0px 30px;
+  border: 1px solid black;
+  background-color: lightgray!important;
+  max-width: 90%;
+}
+.radio{
+ accent-color: green;
+}
+
+.userForm>p{
+  color: red;
+}
+.ProfileCard{
+  z-index: 3;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 40px black;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+}
+.profileNames{
+  
+  font-size: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profileEmail,.accBtn,.userfield{
+  font-weight: 600;
+}
+.link{
+  text-decoration: none;
+  font-weight: 500;
+}
